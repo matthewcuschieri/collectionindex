@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shelf index</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="bar">
+      <div id="head">
+        gathering spots, beacons, standpoints, table sets, landscapes,
+        accompaniments
+      </div>
+      <div id="subhead">To Sort</div>
+    </div>
+    <div id="spacing"></div>
+    <div id="index">
+      <div id="left">
+        <svg
+          width="2"
+          height="685"
+          viewBox="0 0 2 685"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            y="599"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 599)"
+            fill="#1E1D1D"
+          />
+          <rect
+            y="199"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 199)"
+            fill="#1E1D1D"
+          />
+          <rect
+            y="798"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 798)"
+            fill="#FCFCFC"
+          />
+          <rect
+            y="400"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 400)"
+            fill="#FCFCFC"
+          />
+        </svg>
+      </div>
+      <div id="right">
+        <svg
+          width="2"
+          height="685"
+          viewBox="0 0 2 685"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            y="599"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 599)"
+            fill="#1E1D1D"
+          />
+          <rect
+            y="199"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 199)"
+            fill="#1E1D1D"
+          />
+          <rect
+            y="798"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 798)"
+            fill="#FCFCFC"
+          />
+          <rect
+            y="400"
+            width="199"
+            height="2"
+            transform="rotate(-90 0 400)"
+            fill="#FCFCFC"
+          />
+        </svg>
+      </div>
+      <div id="indexsort">
+        <div id="rowone">
+          <div id="wordone">Gathering</div>
+          <div id="identifier">A</div>
+          <div id="bottom">
+            <svg
+              width="auto"
+              height="3"
+              viewBox="0 0 1397 2"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="199" height="3" fill="#1E1D1D" />
+              <rect x="400" width="199" height="3" fill="#1E1D1D" />
+              <rect x="798" width="199" height="3" fill="#1E1D1D" />
+              <rect x="1198" width="199" height="3" fill="#1E1D1D" />
+              <rect x="199" width="199" height="3" fill="#FCFCFC" />
+              <rect x="599" width="199" height="3" fill="#FCFCFC" />
+              <rect x="997" width="199" height="3" fill="#FCFCFC" />
+            </svg>
+          </div>
+
+          <div id="contentone" style="display: none">
+            <div id="tableone"></div>
+            <div id="content"></div>
+            <canvas id="c"></canvas>
+          </div>
+        </div>
+        <div id="rowtwo">
+          <div id="wordtwo">Standpoints</div>
+          <div id="identifier">B</div>
+          <div id="bottom">
+            <svg
+              width="auto"
+              height="3"
+              viewBox="0 0 1397 2"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="199" height="3" fill="#1E1D1D" />
+              <rect x="400" width="199" height="3" fill="#1E1D1D" />
+              <rect x="798" width="199" height="3" fill="#1E1D1D" />
+              <rect x="1198" width="199" height="3" fill="#1E1D1D" />
+              <rect x="199" width="199" height="3" fill="#FCFCFC" />
+              <rect x="599" width="199" height="3" fill="#FCFCFC" />
+              <rect x="997" width="199" height="3" fill="#FCFCFC" />
+            </svg>
+          </div>
+          <div id="contenttwo" style="display: none">
+            <div id="tabletwo"></div>
+            <div id="content"></div>
+            <canvas id="c"></canvas>
+          </div>
+        </div>
+        <div id="rowthree">
+          <div id="wordthree">Accompaniments</div>
+          <div id="identifier">C</div>
+          <div id="bottom">
+            <svg
+              width="auto"
+              height="3"
+              viewBox="0 0 1397 2"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="199" height="3" fill="#1E1D1D" />
+              <rect x="400" width="199" height="3" fill="#1E1D1D" />
+              <rect x="798" width="199" height="3" fill="#1E1D1D" />
+              <rect x="1198" width="199" height="3" fill="#1E1D1D" />
+              <rect x="199" width="199" height="3" fill="#FCFCFC" />
+              <rect x="599" width="199" height="3" fill="#FCFCFC" />
+              <rect x="997" width="199" height="3" fill="#FCFCFC" />
+            </svg>
+          </div>
+          <div id="contentthree" style="display: none">
+            <div id="tablethree"></div>
+            <div id="content"></div>
+            <canvas id="c"></canvas>
+          </div>
+        </div>
+        <div id="rowfour">
+          <div id="wordfour">Landscapes</div>
+          <div id="identifier">D</div>
+          <div id="bottom">
+            <svg
+              width="auto"
+              height="3"
+              viewBox="0 0 1397 2"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="199" height="3" fill="#1E1D1D" />
+              <rect x="400" width="199" height="3" fill="#1E1D1D" />
+              <rect x="798" width="199" height="3" fill="#1E1D1D" />
+              <rect x="1198" width="199" height="3" fill="#1E1D1D" />
+              <rect x="199" width="199" height="3" fill="#FCFCFC" />
+              <rect x="599" width="199" height="3" fill="#FCFCFC" />
+              <rect x="997" width="199" height="3" fill="#FCFCFC" />
+            </svg>
+          </div>
+          <div id="contentfour" style="display: none">
+            <div id="tablefour"></div>
+            <div id="content"></div>
+            <canvas id="c"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script id="template" type="notjs">
+    <div class="scene"></div>
+  </script>
+
+  <script src="threemodule.js"></script>
+  <script src="sketch.js"></script>
+</html>

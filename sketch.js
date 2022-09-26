@@ -1,5 +1,5 @@
 $(function () {
-  $("#rowone").on("click", function () {
+  $("#wordone").on("click", function () {
     $("#contentone").toggle();
     // $("#content").toggle();
     // $("#c").toggle();

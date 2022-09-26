@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shelf index</title>
     <link rel="stylesheet" href="main.css" />
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
+    <script src="https://threejs.org/build/three.min.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
@@ -22,8 +23,8 @@
     <div id="index">
       <div id="left">
         <svg
-          width="2"
-          height="685"
+          width="3"
+          height="1200"
           viewBox="0 0 2 685"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,28 +32,28 @@
           <rect
             y="599"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 599)"
             fill="#1E1D1D"
           />
           <rect
             y="199"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 199)"
             fill="#1E1D1D"
           />
           <rect
             y="798"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 798)"
             fill="#FCFCFC"
           />
           <rect
             y="400"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 400)"
             fill="#FCFCFC"
           />
@@ -60,8 +61,8 @@
       </div>
       <div id="right">
         <svg
-          width="2"
-          height="685"
+          width="3"
+          height="1200"
           viewBox="0 0 2 685"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -69,28 +70,28 @@
           <rect
             y="599"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 599)"
             fill="#1E1D1D"
           />
           <rect
             y="199"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 199)"
             fill="#1E1D1D"
           />
           <rect
             y="798"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 798)"
             fill="#FCFCFC"
           />
           <rect
             y="400"
             width="199"
-            height="2"
+            height="3"
             transform="rotate(-90 0 400)"
             fill="#FCFCFC"
           />
@@ -101,7 +102,7 @@
           <div id="wordone">Gathering</div>
           <div id="identifier">A</div>
           <div id="bottom">
-            <svg
+            <svg id="svg"
               width="auto"
               height="3"
               viewBox="0 0 1397 2"
@@ -119,9 +120,19 @@
           </div>
 
           <div id="contentone" style="display: none">
-            <div id="tableone"></div>
-            <div id="content"></div>
-            <canvas id="c"></canvas>
+            <div id="catone">
+<img src="image 4.png"> 
+            </div>
+            <div id="cattwo">
+                <div id="canvas">
+
+                <section class="main"></section>
+                   <section>
+                       <video id="video" type="video/mp4"  muted loop autoplay width="512" style="display: none"height="512" src="//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4" crossorigin="anonymous" ></video>
+                   </section>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="rowtwo">
@@ -205,11 +216,6 @@
       </div>
     </div>
   </body>
-
-  <script id="template" type="notjs">
-    <div class="scene"></div>
-  </script>
-
   <script src="threemodule.js"></script>
   <script src="sketch.js"></script>
 </html>

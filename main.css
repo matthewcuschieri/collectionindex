@@ -198,13 +198,8 @@ a {
   justify-content: center;
   background-color: whitesmoke;
   box-shadow: 1px 3px 2px 1px #333;
-}
-img {
-  align-self: center;
-  max-width: 100%;
-  height: auto;
-  max-height: 25rem;
-  filter: drop-shadow(0 0 4px #333);
+  align-items: center;
+  flex-direction: column;
 }
 #cattwo {
   height: 30rem;
@@ -216,9 +211,46 @@ img {
   transition: 0.9s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
   border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
   background-color: whitesmoke;
   box-shadow: 1px 3px 2px 1px #333;
+  align-items: center;
+  flex-direction: column;
 }
+#popup {
+  background-color: whitesmoke;
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  display: inline-block;
+  border-radius: 100%;
+  top: 30%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -50px;
+  filter: drop-shadow(0 8px 2px #333);
+  z-index: 5000;
+}
+#descriptor {
+  font-family: ABCDiatype;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #333;
+  color: whitesmoke;
+  stroke: gradient;
+}
+#subtitle {
+  font-size: 1rem;
+}
+img {
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  max-height: 25rem;
+  filter: drop-shadow(0 0 4px #333);
+}
+
 /* #content {
   display: none;
   z-index: 0;

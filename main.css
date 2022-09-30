@@ -20,7 +20,7 @@ body {
   font-size: 11px;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(255, 253, 253);
   margin: 0;
 }
 #index {
@@ -134,7 +134,6 @@ a {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row: 1;
-
   bottom: 0;
   z-index: 2100;
   width: 100%;
@@ -146,6 +145,27 @@ a {
 }
 
 #wordone:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordtwo:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordthree:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordfour:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordfive:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordsix:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordseven:hover {
+  filter: drop-shadow(0 0 30px #333);
+}
+#wordeight:hover {
   filter: drop-shadow(0 0 30px #333);
 }
 #wordone {
@@ -175,7 +195,7 @@ a {
 }
 
 #contentone {
-  display: flex;
+  display: inline-block;
   height: 35rem;
   grid-column: 1/3;
   grid-row: 3;
@@ -185,6 +205,56 @@ a {
   -webkit-transition: 0.5s ease-in-out;
 }
 #catone {
+  height: 30rem;
+
+  width: 100%;
+
+  margin-right: 1.8rem;
+  margin-left: 1rem;
+  transition: 0.9s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  box-shadow: 1px 3px 2px 1px #333;
+  align-items: center;
+  flex-direction: column;
+}
+#cat {
+  height: 30rem;
+
+  width: 100%;
+
+  margin-right: 1.8rem;
+  margin-left: 1rem;
+  transition: 0.9s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  box-shadow: 1px 3px 2px 1px #333;
+  align-items: center;
+  flex-direction: column;
+}
+#cattwo {
+  height: 30rem;
+  width: 100%;
+  margin-right: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 0.1rem;
+  transition: 0.9s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  box-shadow: 1px 3px 2px 1px #333;
+  align-items: center;
+  flex-direction: column;
+}
+#catthree {
   height: 30rem;
   grid-row: 2/3;
   width: 50%;
@@ -201,7 +271,7 @@ a {
   align-items: center;
   flex-direction: column;
 }
-#cattwo {
+#catfour {
   height: 30rem;
   width: 50%;
   grid-row: 2/3;
@@ -234,7 +304,7 @@ a {
 }
 #descriptor {
   font-family: ABCDiatype;
-  font-size: 1rem;
+  font-size: 0.6rem;
   text-align: center;
   background-color: #333;
   color: whitesmoke;
@@ -290,12 +360,16 @@ img {
 }
 
 #contenttwo {
-  height: 50vw;
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
   grid-row: 3;
-
+  width: 100%;
   transition: 0.9s ease-in-out;
+  margin-right: -3rem;
   -webkit-transition: 0.5s ease-in-out;
 }
+
 #rowthree {
   display: flex;
   color: #333333;
@@ -326,14 +400,76 @@ img {
 }
 
 #contentthree {
-  height: 50vw;
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
   grid-row: 3;
-
-  padding-left: 3rem;
+  width: 100%;
   transition: 0.9s ease-in-out;
+  margin-right: -3rem;
   -webkit-transition: 0.5s ease-in-out;
 }
 #rowfour {
+  display: flex;
+  color: #333333;
+  font-family: ABCDiatype;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  bottom: 0;
+  z-index: 2100;
+  width: 100%;
+  height: auto;
+  margin-bottom: -5rem;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: space-between;
+}
+#rowfive {
+  display: flex;
+  color: #333333;
+  font-family: ABCDiatype;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  bottom: 0;
+  z-index: 2100;
+  width: 100%;
+  height: auto;
+  margin-bottom: -5rem;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: space-between;
+}
+#rowsix {
+  display: flex;
+  color: #333333;
+  font-family: ABCDiatype;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  bottom: 0;
+  z-index: 2100;
+  width: 100%;
+  height: auto;
+  margin-bottom: -5rem;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: space-between;
+}
+#rowseven {
+  display: flex;
+  color: #333333;
+  font-family: ABCDiatype;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  bottom: 0;
+  z-index: 2100;
+  width: 100%;
+  height: auto;
+  margin-bottom: -5rem;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: space-between;
+}
+#roweight {
   display: flex;
   color: #333333;
   font-family: ABCDiatype;
@@ -352,24 +488,87 @@ img {
   font-size: 2.8rem;
   color: #333333;
   grid-row: 1;
-
+  padding-top: 2rem;
+}
+#wordfive {
+  font-size: 2.8rem;
+  color: #333333;
+  grid-row: 1;
+  padding-left: 0rem;
+  padding-top: 2rem;
+}
+#wordsix {
+  font-size: 2.8rem;
+  color: #333333;
+  grid-row: 1;
+  padding-left: 0rem;
+  padding-top: 2rem;
+}
+#wordseven {
+  font-size: 2.8rem;
+  color: #333333;
+  grid-row: 1;
+  padding-left: 0rem;
+  padding-top: 2rem;
+}
+#wordeight {
+  font-size: 2.8rem;
+  color: #333333;
+  grid-row: 1;
+  padding-left: 0rem;
   padding-top: 2rem;
 }
 
-#bottomfour {
-  grid-row: 2;
-
-  padding-right: 1rem;
-}
-
 #contentfour {
-  height: 50vw;
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
   grid-row: 3;
-
+  width: 100%;
   transition: 0.9s ease-in-out;
+  margin-right: -3rem;
   -webkit-transition: 0.5s ease-in-out;
 }
-
+#contentfive {
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
+  grid-row: 3;
+  width: 100%;
+  transition: 0.9s ease-in-out;
+  margin-right: -3rem;
+  -webkit-transition: 0.5s ease-in-out;
+}
+#contentsix {
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
+  grid-row: 3;
+  width: 100%;
+  transition: 0.9s ease-in-out;
+  margin-right: -3rem;
+  -webkit-transition: 0.5s ease-in-out;
+}
+#contentseven {
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
+  grid-row: 3;
+  width: 100%;
+  transition: 0.9s ease-in-out;
+  margin-right: -3rem;
+  -webkit-transition: 0.5s ease-in-out;
+}
+#contenteight {
+  display: flex;
+  height: 35rem;
+  grid-column: 1/3;
+  grid-row: 3;
+  width: 100%;
+  transition: 0.9s ease-in-out;
+  margin-right: -3rem;
+  -webkit-transition: 0.5s ease-in-out;
+}
 svg {
   box-shadow: 2px 2px 2px 1px #333;
 }
@@ -463,7 +662,97 @@ section {
   width: 50%;
   height: 30rem;
   padding: 0px;
+  margin-bottom: 50px;
   position: static; /* fixed or static */
   top: 100px;
   left: 100px;
+}
+
+.jcarousel-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  grid-row: 3;
+  margin-right: -3rem;
+  margin-top: -4rem;
+}
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  grid-row: 3;
+  width: 100%;
+  margin-right: -3rem;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+  width: 1000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.LayerArrow {
+  box-shadow: 0px 0px 0px 0px !important;
+  display: block;
+  margin: auto;
+}
+.LayerArrow:hover {
+  filter: drop-shadow(0 0 3px #333);
+}
+#next-zone:hover + .LayerArrow {
+  filter: drop-shadow(0 0 3px #333);
+}
+.cls-1:hover {
+  fill: #0a0a0a;
+}
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+  /* Required only for block elements like <li>'s */
+  float: left;
+  height: 30rem;
+  width: 45vw;
+  left: 0;
+}
+#prev-zone {
+  left: 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 80%;
+  width: 12.5%;
+  transform: scaleX(-1);
+  overflow: visible;
+  filter: drop-shadow(0 0 0) !important;
+  z-index: 5000;
+  justify-content: center;
+}
+#next-zone {
+  right: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  height: 80%;
+  width: 12.5%;
+  overflow: visible;
+  z-index: 5000;
+  filter: drop-shadow(0 0 0) !important;
+}
+div {
+  display: block;
 }

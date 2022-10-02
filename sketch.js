@@ -62,8 +62,11 @@ $(function () {
     $("#spacing").toggle();
   });
 });
+
+//row 1//
+
 $(function () {
-  $("#catone").on("click", function () {
+  $("#one").on("click", function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -77,7 +80,7 @@ $(function () {
 });
 
 $(function () {
-  $("#cattwo").on("click", function () {
+  $("#two").on("click", function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -90,7 +93,7 @@ $(function () {
   });
 });
 $(function () {
-  $("#catthree").on("click", function () {
+  $("#three").on("click", function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -103,7 +106,390 @@ $(function () {
   });
 });
 $(function () {
-  $("#catfour").on("click", function () {
+  $("#four").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+//row two//
+$(function () {
+  $("#oneA").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoA").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeA").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourA").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+//row three//
+$(function () {
+  $("#oneB").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoB").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeB").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourB").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+//row four//
+$(function () {
+  $("#oneC").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoC").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeC").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourC").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+//row five//
+$(function () {
+  $("#oneD").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoD").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeD").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourD").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+//row six//
+$(function () {
+  $("#oneE").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoE").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeE").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourE").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+//row seven//
+$(function () {
+  $("#oneF").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoF").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeF").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourF").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+//row eight//
+$(function () {
+  $("#oneG").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+
+$(function () {
+  $("#twoG").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#threeG").on("click", function () {
+    $("#popup").toggle();
+    // $("#content").toggle();
+    // $("#c").toggle();
+    var videoFile =
+      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var video = $("#change video")[0];
+    video.src = videoFile;
+    video.load();
+    video.play();
+  });
+});
+$(function () {
+  $("#fourG").on("click", function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();

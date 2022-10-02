@@ -3,18 +3,18 @@ const camera = new THREE.PerspectiveCamera(
   45,
   window.innerWidth / window.innerHeight,
   0.1,
-  1000
+  100
 );
 
-let renderer = new THREE.WebGLRenderer({});
-scene.background = new THREE.Color(0xf5f5f5);
-renderer.setSize(500, 390);
-renderer.setClearColor(0xecf0f1);
+let renderer = new THREE.WebGLRenderer({ alpha: true });
+
+renderer.setSize(300, 490);
+renderer.setClearColor(0x000000, 0); // the default
 let doc = document.querySelector(".main");
 doc.appendChild(renderer.domElement);
 
 window.addEventListener("resize", function () {
-  renderer.setSize(500, 390);
+  renderer.setSize(300, 490);
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
 });
@@ -46,7 +46,7 @@ const mesh = new THREE.Mesh(geometry, material);
 mesh.scale.multiplyScalar(2);
 scene.add(mesh);
 
-let localPlane = new THREE.Plane(new THREE.Vector3(0.4, 0, 0), 1);
+let localPlane = new THREE.Plane(new THREE.Vector3(0, 0, 0), 1);
 renderer.localClippingEnabled = true;
 material.clippingPlanes = [localPlane];
 material.clipShadows = true;
@@ -54,8 +54,8 @@ material.clipShadows = true;
 document.addEventListener("DOMContentLoaded", function () {
   video.play();
 });
-
-camera.position.z = 10;
+camera.position.y = 0;
+camera.position.z = 14;
 
 const animate = function () {
   requestAnimationFrame(animate);

@@ -70,8 +70,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/Flower - 31953.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -85,7 +84,7 @@ $(function () {
     // $("#content").toggle();
     // $("#c").toggle();
     var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+      "video/videoblocks-time-lapse-of-growing-bonsai-helvetica-tree-1a1-in-png-format-with-alpha-transparency-channel-isolated-on-black-background_rvxubv7rrg__56d54355214c048e601a2b736dee569a__P360.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -110,8 +109,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/Pickup-Shelf-Video.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -126,7 +124,7 @@ $(function () {
     // $("#content").toggle();
     // $("#c").toggle();
     var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+      "video/videoblocks-vintage-leather-armchair-boss_sox2a6hh3e__e5da78b8d3926826d82b91d0e937c412__P360.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -139,8 +137,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/ferry.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -152,8 +149,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/cannon.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -165,8 +161,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/elevator.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -179,8 +174,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "/video/egg.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -193,8 +187,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/napkin.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -206,8 +199,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "/video/foodplate.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -219,8 +211,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/settable.mp4";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -233,8 +224,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/plate.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -247,8 +237,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/candelabra.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -260,8 +249,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/table.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -273,8 +261,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/bath.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -288,8 +275,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/beacon.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -302,8 +288,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/highrise.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -315,8 +300,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/Lighthouse_light.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -328,8 +312,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/board.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -343,8 +326,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/table1.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -357,8 +339,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/table2.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -370,8 +351,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/table3.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -383,8 +363,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/table4.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -398,8 +377,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/nj.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -412,8 +390,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/nj2.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -425,8 +402,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "/video/nj3.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -438,8 +414,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/nj4.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -453,8 +428,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/nyc.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -467,8 +441,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/nyc2.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -480,8 +453,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4";
+    var videoFile = "video/nyc3.ogm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -493,8 +465,7 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile =
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    var videoFile = "video/nyc4.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

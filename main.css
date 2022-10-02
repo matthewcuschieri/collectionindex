@@ -50,6 +50,8 @@ body {
 }
 #indexsort {
   grid-column: 2;
+  overflow-y: scroll;
+  height: 100vh;
 }
 #info {
   position: absolute;

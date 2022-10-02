@@ -727,6 +727,7 @@ have a fixed width and height (but it's not required).
   width: 45vw;
   left: 0;
 }
+
 #prev-zone {
   left: 0;
   display: flex;
@@ -739,6 +740,7 @@ have a fixed width and height (but it's not required).
   overflow: visible;
   filter: drop-shadow(0 0 0) !important;
   z-index: 5000;
+  pointer-events: auto;
   justify-content: center;
 }
 #next-zone {
@@ -752,6 +754,16 @@ have a fixed width and height (but it's not required).
   overflow: visible;
   z-index: 5000;
   filter: drop-shadow(0 0 0) !important;
+}
+#prev-zone:hover {
+  pointer-events: auto;
+
+  cursor: url(Artboard.svg) 0 32, auto;
+}
+#next-zone:hover {
+  pointer-events: auto;
+
+  cursor: url(arrow.svg) 0 32, auto;
 }
 div {
   display: block;

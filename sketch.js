@@ -453,7 +453,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nyc3.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/De_%27Harlem_Globetrotters%27_in_Scheveningen_Weeknummer_58-27_-_Open_Beelden_-_11508.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

@@ -70,7 +70,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/Flower - 31953.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Hummeln.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -84,7 +85,7 @@ $(function () {
     // $("#content").toggle();
     // $("#c").toggle();
     var videoFile =
-      "video/videoblocks-time-lapse-of-growing-bonsai-helvetica-tree-1a1-in-png-format-with-alpha-transparency-channel-isolated-on-black-background_rvxubv7rrg__56d54355214c048e601a2b736dee569a__P360.mp4";
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Navigating_a_Tree_in_the_Park_in_Spring.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -109,7 +110,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/Pickup-Shelf-Video.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Interior_of_the_Old_Library%2C_Trinity_College%2C_Dublin.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -124,7 +126,7 @@ $(function () {
     // $("#content").toggle();
     // $("#c").toggle();
     var videoFile =
-      "video/videoblocks-vintage-leather-armchair-boss_sox2a6hh3e__e5da78b8d3926826d82b91d0e937c412__P360.mp4";
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Airplane_Seat_View_1_2013-07-02.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -137,7 +139,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/ferry.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Penguin_Island_Ferry_Gnangarra.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -149,7 +152,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/cannon.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/Snow_cannon_pagla_boden.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -161,7 +165,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/elevator.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Luxembourg-Pfaffenthal-elevator-035ESD.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -174,7 +179,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "/video/egg.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/Spinning_hardboiled_egg_01.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -187,7 +193,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/napkin.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cloth_Simulation.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -199,7 +206,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "/video/foodplate.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Tippe_top_on_a_plate_slow_motion.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -211,7 +219,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/settable.mp4";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Saganaki_at_the_Parthenon_Restaurant_in_Chicago.MOV.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -224,7 +233,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/plate.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Pythagoras_cup_video.ogv/Pythagoras_cup_video.ogv.1080p.vp9.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -237,7 +247,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/candelabra.ogm";
+    var videoFile =
+      "vhttps://upload.wikimedia.org/wikipedia/commons/f/f8/Candles%2Bcamera_dolly.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -249,7 +260,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/table.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Table_football.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -261,7 +273,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/bath.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/American_Robin_in_bird_bath.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -275,7 +288,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/beacon.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Fernsehturm_Stuttgart_Befeuerung.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -288,7 +302,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/highrise.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/3/30/Wolf_Point_West.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -300,7 +315,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/Lighthouse_light.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lighthouse_light.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -312,7 +328,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/board.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/%E5%AD%90%E3%81%A9%E3%82%82%E5%90%91%E3%81%91iPad%E8%A1%9D%E6%92%83%E5%90%B8%E5%8F%8E%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%B9_%E3%82%B1%E3%82%AC%E3%81%95%E3%81%9B%E3%81%AB%E3%81%8F%E3%81%84%E4%B8%B8%E3%81%BF%E3%81%AE%E3%81%82%E3%82%8B%E5%BD%A2%E7%8A%B6_Apple_9.7%E3%82%A4%E3%83%B3%E3%83%81iPad_2017%E7%94%A8_PDA-IPAD1005BK-BL-R.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -326,7 +343,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/table1.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/b/b7/Dusting_Furniture_%28TESDA%29.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -339,7 +357,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/table2.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Common_house_gecko_licking_on_top_of_table.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -351,7 +370,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/table3.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wikimania_2019%2C_coin_exchange.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -363,7 +383,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/table4.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Scheppach_Basato_5-4_band_saw.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

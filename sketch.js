@@ -428,7 +428,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nyc.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/New_York_City_Subway_-_Train_of_R46_cars.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -441,7 +442,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nyc2.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Time_Lapse_of_New_York_City.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

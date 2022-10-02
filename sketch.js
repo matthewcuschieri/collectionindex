@@ -377,7 +377,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nj.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/New_Jersey_Turnpike_time-lapse.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -390,7 +391,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nj2.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Kingda_Ka_at_Six_Flags_Great_Adventure%2C_New_Jersey.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -402,7 +404,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "/video/nj3.ogm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/ID_Basketball_ACT_State_Team.ogv";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();
@@ -414,7 +417,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nj4.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cross_Bronx_Expressway_time-lapse.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

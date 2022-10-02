@@ -465,7 +465,8 @@ $(function () {
     $("#popup").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    var videoFile = "video/nyc4.webm";
+    var videoFile =
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/The_evolution_of_the_desk_by_the_harvard_innovation_lab.webm";
     var video = $("#change video")[0];
     video.src = videoFile;
     video.load();

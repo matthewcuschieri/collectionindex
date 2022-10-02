@@ -100,7 +100,7 @@ a {
 #spacing {
   grid-row: 1;
   z-index: 0;
-  height: 10rem;
+  height: 30rem;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
 }

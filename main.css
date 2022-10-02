@@ -14,6 +14,35 @@
   font-family: Inktrap;
   src: url(ABCWhyteInktrapVariable-Trial.ttf);
 }
+
+.byside {
+  display: none;
+  background-color: white !important;
+  color: black;
+  grid-row: 1 !important;
+  /* max-width: 450px; */
+  border-radius: 0.1rem;
+  box-shadow: 1px 3px 2px 1px #333;
+  overflow-wrap: break-word;
+  padding: 2rem;
+  height: 39vh;
+  width: 45vw;
+  font-weight: 100;
+  font-family: linotype-sabon, Times, serif;
+  font-weight: 100;
+  /* font-style: normal; */
+  /* align-items: flex-start; */
+  text-align: justify;
+  z-index: 3000;
+  font-size: 29px;
+  align-self: self-start;
+  line-height: 34.2px;
+  margin-bottom: 20vh;
+  /* /* filter: drop-shadow(0 0 0) !important;/ */
+}
+#descriptor:hover + .byside {
+  display: inline-block;
+}
 body {
   height: 100vh;
   width: 100vw;
@@ -27,7 +56,6 @@ body {
   margin: 0;
 }
 #index {
-  overflow-y: scroll;
   height: 100vw;
   display: grid;
   grid-template-columns: 0.2fr 5fr 0.2fr;
@@ -38,7 +66,6 @@ body {
   padding-left: 3rem;
   grid-row: 1 / span 7;
   height: 100vh;
-  padding-top: 10rem;
 }
 
 #right {
@@ -46,7 +73,6 @@ body {
   padding-right: 1rem;
   grid-row: 1 / span 7;
   height: 100vh;
-  padding-top: 10rem;
 }
 #indexsort {
   grid-column: 2;
@@ -102,7 +128,7 @@ a {
 #spacing {
   grid-row: 1;
   z-index: 0;
-  height: 10rem;
+  height: 22rem;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
 }
@@ -137,7 +163,6 @@ a {
   font-family: ABCDiatypethin, helvetica;
 }
 #rowone {
-  padding-top: 10rem;
   display: flex;
   color: #333333;
   font-family: ABCDiatype;
@@ -233,7 +258,7 @@ a {
 #popup {
   height: 20rem;
   width: 20rem;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   border-radius: 100%;
@@ -250,13 +275,16 @@ a {
   text-align: center;
   background-color: #333;
   color: whitesmoke;
+  position: absolute;
   stroke: gradient;
+  margin-top: 10rem;
 }
 #subtitle {
   font-size: 1rem;
 }
 img {
   align-self: center;
+  position: absolute;
   max-width: 150px;
   height: auto;
   max-height: 25rem;

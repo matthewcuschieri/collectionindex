@@ -14,7 +14,9 @@
   font-family: Inktrap;
   src: url(ABCWhyteInktrapVariable-Trial.ttf);
 }
-
+a {
+  color: #333333 !important;
+}
 .byside {
   display: none;
   background-color: white !important;

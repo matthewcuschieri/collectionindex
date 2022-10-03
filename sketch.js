@@ -1,7 +1,7 @@
 $(function () {
   $("#wordone").on("click", function () {
     $("#contentone").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -24,7 +24,6 @@ $(function () {
     $("#contenttwo").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -40,7 +39,6 @@ $(function () {
     $("#contentthree").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -56,7 +54,6 @@ $(function () {
     $("#contentfour").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -72,7 +69,6 @@ $(function () {
     $("#contentfive").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -88,7 +84,6 @@ $(function () {
     $("#contentsix").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -104,7 +99,6 @@ $(function () {
     $("#contentseven").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -120,7 +114,6 @@ $(function () {
     $("#contenteight").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").css("height", "2rem");
   });
 });
 
@@ -566,7 +559,7 @@ $(function () {
 $(function () {
   $("#w1").on("click", function () {
     $("#contentone").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -579,7 +572,7 @@ $(function () {
 $(function () {
   $("#w2").on("click", function () {
     $("#contenttwo").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contentone").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -592,7 +585,7 @@ $(function () {
 $(function () {
   $("#w3").on("click", function () {
     $("#contentthree").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contentone").css("display", "none");
     $("#contenttwo").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -605,7 +598,7 @@ $(function () {
 $(function () {
   $("#w4").on("click", function () {
     $("#contentfour").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentone").css("display", "none");
@@ -618,7 +611,7 @@ $(function () {
 $(function () {
   $("#w5").on("click", function () {
     $("#contentfive").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -631,7 +624,7 @@ $(function () {
 $(function () {
   $("#w6").on("click", function () {
     $("#contentsix").toggle();
-    $("#spacing").css("height", "2rem");
+
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");

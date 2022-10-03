@@ -1,7 +1,7 @@
 $(function () {
   $("#wordone").on("click", function () {
     $("#contentone").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
     $("#contenttwo").css("display", "none");
     $("#contentthree").css("display", "none");
     $("#contentfour").css("display", "none");
@@ -24,7 +24,7 @@ $(function () {
     $("#contenttwo").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -40,7 +40,7 @@ $(function () {
     $("#contentthree").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -56,7 +56,7 @@ $(function () {
     $("#contentfour").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -72,7 +72,7 @@ $(function () {
     $("#contentfive").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -88,7 +88,7 @@ $(function () {
     $("#contentsix").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -104,7 +104,7 @@ $(function () {
     $("#contentseven").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 $(function () {
@@ -120,7 +120,7 @@ $(function () {
     $("#contenteight").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
-    $("#spacing").toggle();
+    $("#spacing").css("height", "2rem");
   });
 });
 

@@ -186,7 +186,11 @@ a {
   margin-right: 0;
   justify-content: flex-start;
 }
-
+.head {
+  font-size: 11px !important;
+  color: #333333;
+  font-family: ABCDiatype;
+}
 #head:hover {
   border-bottom: 3px solid #333333;
 }

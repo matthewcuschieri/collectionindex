@@ -1,13 +1,26 @@
 $(function () {
   $("#wordone").on("click", function () {
     $("#contentone").toggle();
-    // $("#content").toggle();
-    // $("#c").toggle();
     $("#spacing").toggle();
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
   });
 });
 $(function () {
   $("#wordtwo").on("click", function () {
+    $("#contentone").css("display", "none");
+
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
     $("#contenttwo").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -16,6 +29,14 @@ $(function () {
 });
 $(function () {
   $("#wordthree").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
     $("#contentthree").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -24,6 +45,14 @@ $(function () {
 });
 $(function () {
   $("#wordfour").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
     $("#contentfour").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -32,6 +61,14 @@ $(function () {
 });
 $(function () {
   $("#wordfive").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
     $("#contentfive").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -40,6 +77,14 @@ $(function () {
 });
 $(function () {
   $("#wordsix").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+
+    $("#contentseven").css("display", "none");
+    $("#contenteight").css("display", "none");
     $("#contentsix").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -48,6 +93,14 @@ $(function () {
 });
 $(function () {
   $("#wordseven").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+
+    $("#contenteight").css("display", "none");
     $("#contentseven").toggle();
     // $("#content").toggle();
     // $("#c").toggle();
@@ -56,6 +109,14 @@ $(function () {
 });
 $(function () {
   $("#wordeight").on("click", function () {
+    $("#contentone").css("display", "none");
+    $("#contenttwo").css("display", "none");
+    $("#contentthree").css("display", "none");
+    $("#contentfour").css("display", "none");
+    $("#contentfive").css("display", "none");
+    $("#contentsix").css("display", "none");
+    $("#contentseven").css("display", "none");
+
     $("#contenteight").toggle();
     // $("#content").toggle();
     // $("#c").toggle();

@@ -286,6 +286,9 @@ a {
   align-items: center;
   flex-direction: column;
 }
+#cat:hover {
+  box-shadow: 1px 3px 2px 1px #333;
+}
 
 #popup {
   height: 20rem;
@@ -321,6 +324,9 @@ img {
   height: auto;
   max-height: 25rem;
   filter: drop-shadow(0 0 4px #333);
+}
+img:hover {
+  filter: drop-shadow(0 0 3px rgb(15, 14, 14));
 }
 
 /* #content {
